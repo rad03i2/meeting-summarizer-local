@@ -1,0 +1,5 @@
+[10:00] Lina: Today we need to finalize the dashboard release.
+[10:03] Omar: I will run the test suite before Thursday.
+[10:05] Lina: We agreed to publish after the tests pass.
+[10:08] رضوان: يجب مراجعة الترجمة العربية قبل النشر.
+[10:10] رضوان: اتفق الفريق على استخدام النسخة المستقرة.
