@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meeting-summarizer-local"
+version = "1.0.0"
+description = "Privacy-first local meeting transcript summarizer with action-item and decision extraction."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Radwan Abdulhadi Ahmed"}]
+keywords = ["meetings", "summarization", "transcripts", "privacy", "cli"]
+
+[project.scripts]
+meeting-summary = "meeting_summarizer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
